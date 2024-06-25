@@ -1,0 +1,342 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\large \scshape DIVYANSH SINGH RATHORE } \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-8400383514 ~\\ \vspace{1pt}
+     \href{mailto:divyanshsrathore13@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{divyanshsrathore13@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/divyansh-singh-rathore-4934b8203/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedln}}  ~
+    \href{https://github.com/eaglex12}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+        \href{https://eaglex12.github.io/Divyansh-rathore-portfolio/}{\raisebox{-0.2\height}\faGlobe\ \underline{Portfolio
+        }} ~
+            \href{https://auth.geeksforgeeks.org/user/eagleav/}{\raisebox{-0.2\height}\faGithub\ \underline{GeeksforGeeks}} ~
+            \href{https://leetcode.com/eagleavl/}{\raisebox{-0.2\height}\faGithub\ \underline{Leetcode}}
+            
+
+
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajiv Gandhi Institute of Petroleum Technology,Amethi }{Dec 2020 - June 2024}
+      {Bachelor of Technology in Computer Science  Engineering  }{CGPA:7.96}
+\resumeSubHeadingListEnd
+           \vspace{-9pt}
+
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr.Virendra Swaroop Education Centre, Shyam Nagar, Kanpur   }{Jul 2018 - May 2019}
+     {Higher Secondary Education(CBSE)  }{89.2\%}
+\resumeSubHeadingListEnd
+           \vspace{-11pt}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr.Virendra Swaroop Education Centre,Shyam Nagar, Kanpur }{Jul 2016 - May 2017}
+     {Higher Education(CBSE)  }{9.6 CGPA}
+      
+  \resumeSubHeadingListEnd
+  \vspace{-10pt}
+
+
+   \section{Experience}
+     
+  \resumeSubHeadingListStart
+
+     \vspace{-5pt}
+     \resumeProjectHeading
+{\textbf{Full Stack Development Intern} $|$ \textbf{MyOoumph Networks Pvt Ltd} }{ June 2023- Dec 2023 }
+\resumeItemListStart
+\resumeItem{Spearheaded the development of a social media application, optimizing data handling and API robustness with Django and GraphQL API.Utilized ReactJS, Apollo Client, and TailwindCSS to design engaging, responsive user interfaces.
+
+}
+
+\resumeItem{Ensured backend reliability through comprehensive testing and debugging of API endpoints using Postman API, maintaining high code quality and performance standards.}
+
+\resumeItem{Demonstrated proficiency in Git and GitHub for version control and collaborative development practices within a team environment.}
+
+\resumeItem{Orchestrated exhaustive testing efforts leading to a remarkable 45 \% reduction in bugs and substantial performance enhancements in the final project phase, underscoring a steadfast commitment to quality assurance and optimization.}
+
+\resumeItem{\textbf{Technologies Used}: Django, React JS, GraphQL API, Postman, Git.}
+\resumeItemListEnd
+
+\vspace{-8pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-9pt}
+    \resumeSubHeadingListStart
+
+     
+          \resumeProjectHeading
+           {\textbf{Blog Website} $|$ \emph{ \href{https://github.com/eaglex12/BLOG-BACKEND}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
+    \vspace{0pt}}$|$ \emph{ \href{https://bucolic-paletas-a888ff.netlify.app/account}{ \underline{Live}}
+    \vspace{0pt}} }{ Nov 2022 - Jan 2023 }
+        \vspace{-8pt}
+
+          \resumeItemListStart
+          \resumeItem{Developed a full-stack blog site utilizing React, Node.js, and Express.js. Employed MongoDB for efficient data management and JWT for secure user authentication, adhering to industry-standard security protocols.}
+
+\resumeItem{Implemented Nodemailer for streamlined user feedback, facilitating effective communication channels and enhancing user engagement.}
+
+
+
+
+            \resumeItemListEnd
+     \vspace{-10pt}
+
+      
+
+         
+    \resumeProjectHeading
+{\textbf{Django Ecomm site }$|$\emph{ \href{https://github.com/eaglex12/DJANGO-ECOMM}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
+    \vspace{-2pt}}}{July 2022 - Oct 2022}               
+    \vspace{-8pt}
+
+      \resumeItemListStart
+     \resumeItem{Developed a robust e-commerce application, showcasing expertise in Django and full-stack development, emphasizing industry-standard practices.}
+
+\resumeItem{Implemented essential e-commerce features to enrich user experience and functionality, adhering to best practices in user interface design and application architecture.}
+
+\resumeItem{Proficient in API testing, payload analysis, and secure email notifications with dynamic PDF generation, ensuring data integrity and user security in compliance with industry standards.}
+
+\resumeItem{Deployed a dockerized image of the Django API as container services on AWS EC2 and ECS, optimizing scalability and resource utilization for efficient application deployment in cloud environments.}
+     
+       \resumeItemListEnd
+\vspace{-10pt}
+
+
+          \resumeProjectHeading
+          {\textbf{Algorithm Visualizer} $|$ \emph{ \href{https://github.com/eaglex12/MY-ALGO-VIS}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
+    \vspace{0pt}}$|$ \emph{ \href{https://algo-vizzz.netlify.app/}{ \underline{Live}}
+    \vspace{0pt}} }{ Feb 2022 - May 2022 }
+            \vspace{-8pt}
+
+          \resumeItemListStart
+\resumeItem{ React-based visualization platform for searching, sorting, and scheduling algorithms with a Node.js backend for user feedback via Nodemailer.
+ }
+          \resumeItem{Utilizes tsParticles for customizable JavaScript particle effects in the background, enhancing UI aesthetics.  }
+  \resumeItem{Incorporates a feedback system for user interaction and experience improvement.}
+          
+          
+         
+    \resumeSubHeadingListEnd
+
+     
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Skills, Languages \& Interests }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Python, JavaScript, SQL, HTML, CSS} \\
+   
+     \textbf{Tools and Framework}{: GraphQL, Git, ReactJs, MySQL, VS Code, Django, AWS- EC2, ECS, TailwindCSS } \\
+     \textbf{Area of Interest}{: Artificial Intelligence and Machine Learning, Data Structures and Algorithms, Cyber Security } \\
+     
+      \textbf{Non Technical skills}{: Problem Solving, Presentation Skills, Teamwork, Leadership, Versatility, Active learning} \\
+    }}
+    
+ \end{itemize}
+ \vspace{-16pt}
+  
+  
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Operating System
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Computer Architecture
+%                 \item Theory Of Computation
+%                 \item Artificial Intelligence
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+
+
+
+
+\section{Achievements}
+  \resumeSubHeadingListStart
+
+              
+            \resumeItemListStart
+                \resumeItem{Resolved a rendering issue at Shaadi.com by employing front-end development skills to identify and rectify the bug through meticulous code analysis and testing, thereby improving user experience.
+}
+                 { \hfill (\href{https://drive.google.com/file/d/1SV1QgOXQ92QEVl074janbh76lMDQFTm3/view?usp=sharing}{      \underline{Certificate}})} \\
+                
+                \resumeItem{  Secured an AIR 15002 among 1.2 million candidates in JEE Advanced 2020}
+                
+                
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+    
+ \vspace{-16pt}
+% \section{Coding Profiles}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+     
+     
+%        \textbf{GeeksforGeeks }{: (\href{https://auth.geeksforgeeks.org/user/eagleav/}{\raisebox{-0.2\height}\ \underline{eagleav}})} \\
+%        \textbf{Leetcode }{: (\href{https://leetcode.com/eagleavl/}{\raisebox{-0.2\height}\ \underline{eagleavl}})} \\
+       
+     
+%     }}
+%  \end{itemize}
+ % \vspace{-16pt}
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Position Of Responsibility}
+    \resumeSubHeadingListStart
+        
+            \resumeItemListStart
+                \resumeItem{ \textbf{Senior Head of Promotions} at RGIPT-ACM Student Chapter,leading a team of 10+ students in organizing events and webinars.Successfully managed the promotion of COSMOSX , the first grand event, attracting more than 500 students from different colleges}
+
+                % \resumeItem{\textbf{Technical Head} at E-CELL, RGIPT, managing a team of 180+ members and providing mentorship for students in developing innovative startup ideas. Directed the execution of successful events, including securing sponsorships for "Vyapaar Expo." Additionally, as the technical head, played a pivotal role in expanding participation in the business plan competition "Udaan" to students from RGIPT and other institutions, showcasing a blend of technical expertise and leadership acumen.}
+                
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
