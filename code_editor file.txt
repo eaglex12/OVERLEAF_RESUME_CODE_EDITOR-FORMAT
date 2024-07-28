@@ -164,6 +164,23 @@
   \resumeSubHeadingListEnd
   \vspace{-10pt}
 
+    %-----------PROGRAMMING SKILLS-----------
+\section{Skills, Languages \& Interests }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Python, JavaScript, SQL, HTML, CSS} \\
+   
+     \textbf{Tools and Framework}{: GraphQL, Git, ReactJs, MySQL, VS Code, Django, AWS- EC2, ECS, TailwindCSS } \\
+     \textbf{Area of Interest}{: Artificial Intelligence and Machine Learning, Data Structures and Algorithms, Cyber Security } \\
+     
+      \textbf{Non Technical skills}{: Problem Solving, Presentation Skills, Teamwork, Leadership, Versatility, Active learning} \\
+    }}
+    
+ \end{itemize}
+ \vspace{-16pt}
+  
+  
+
 
    \section{Experience}
      
@@ -171,7 +188,21 @@
 
      \vspace{-5pt}
      \resumeProjectHeading
-{\textbf{Full Stack Development Intern} $|$ \textbf{MyOoumph Networks Pvt Ltd} }{ June 2023- Dec 2023 }
+{\textbf{Software Development Engineer} $|$ \textbf{Basys.ai} }{ June 2024 - current }
+\resumeItemListStart
+    \resumeItem{Developing an enterprise software solution from inception to automate the Prior Authorization System in the US, improving healthcare process efficiency.}
+    \resumeItem{Integrated ChatGPT and Claude.AI into the project alongside an in-house AI system.}
+    \resumeItem{Automated the process of switching between different GPT models, reducing testing time by up to 80\% for the AI team.}
+    \resumeItem{Implemented machine learning algorithms to optimize decision-making processes within the Prior Authorization System, resulting in improved accuracy and efficiency.}
+    \resumeItem{Implemented FHIR (Fast Healthcare Interoperability Resources) standards to ensure secure and efficient exchange of healthcare information, enabling seamless integration with other healthcare systems and enhancing data interoperability within the Prior Authorization System.}
+    \resumeItem{\textbf{Technologies Used}: NextJS, NestJS, PostgreSQL, FHIR, Spring Boot}
+\resumeItemListEnd
+
+
+
+    \vspace{-5pt}
+     \resumeProjectHeading
+{\textbf{Full Stack Development Intern} $|$ \textbf{MyOoumph Networks Pvt Ltd} }{ June 2023 - Dec 2023 }
 \resumeItemListStart
 \resumeItem{Spearheaded the development of a social media application, optimizing data handling and API robustness with Django and GraphQL API.Utilized ReactJS, Apollo Client, and TailwindCSS to design engaging, responsive user interfaces.
 
@@ -196,38 +227,32 @@
 
      
           \resumeProjectHeading
-           {\textbf{Blog Website} $|$ \emph{ \href{https://github.com/eaglex12/BLOG-BACKEND}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
-    \vspace{0pt}}$|$ \emph{ \href{https://bucolic-paletas-a888ff.netlify.app/account}{ \underline{Live}}
-    \vspace{0pt}} }{ Nov 2022 - Jan 2023 }
+           {\textbf{AppleCrafts} $|$ \emph{ \href{https://github.com/eaglex12/AppleCraft}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
+    \vspace{0pt}} }{ Nov 2022 - Feb 2023 }
         \vspace{-8pt}
 
-          \resumeItemListStart
-          \resumeItem{Developed a full-stack blog site utilizing React, Node.js, and Express.js. Employed MongoDB for efficient data management and JWT for secure user authentication, adhering to industry-standard security protocols.}
-
-\resumeItem{Implemented Nodemailer for streamlined user feedback, facilitating effective communication channels and enhancing user engagement.}
-
-
-
-
-            \resumeItemListEnd
+        \resumeItemListStart
+\resumeItem{Developed a full-fledged e-commerce web app using the MERN stack, covering essential features like Payments, Orders, Products, and Wallets.}
+\resumeItem{Implemented MVC architecture and styled the application with TailwindCSS.}
+\resumeItem{Integrated Razorpay for secure payment processing and set up role-based authentication for admins and users.}
+\resumeItem{Utilized technologies including Node.js, Express.js, React, Redux, MongoDB, Nodemailer, OAuth 2.0, JSON Web Token, Multer, AWS EC2, Nginx, Chart.js, and Git.}
+\resumeItemListEnd
      \vspace{-10pt}
 
       
 
          
     \resumeProjectHeading
-{\textbf{Django Ecomm site }$|$\emph{ \href{https://github.com/eaglex12/DJANGO-ECOMM}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
-    \vspace{-2pt}}}{July 2022 - Oct 2022}               
+{\textbf{Blog Website }$|$\emph{ \href{https://github.com/eaglex12/BLOG-BACKEND}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}  
+    \vspace{0pt}}$|$ \emph{ \href{https://bucolic-paletas-a888ff.netlify.app/account}{ \underline{Live}}
+    \vspace{0pt}} }{ Nov 2022 - Jan 2022 }              
     \vspace{-8pt}
 
       \resumeItemListStart
-     \resumeItem{Developed a robust e-commerce application, showcasing expertise in Django and full-stack development, emphasizing industry-standard practices.}
+     \resumeItem{Developed a full-stack blog site utilizing React, Node.js, and Express.js. Employed MongoDB for efficient data management and JWT for secure user authentication, adhering to industry-standard security protocols.}
 
-\resumeItem{Implemented essential e-commerce features to enrich user experience and functionality, adhering to best practices in user interface design and application architecture.}
-
-\resumeItem{Proficient in API testing, payload analysis, and secure email notifications with dynamic PDF generation, ensuring data integrity and user security in compliance with industry standards.}
-
-\resumeItem{Deployed a dockerized image of the Django API as container services on AWS EC2 and ECS, optimizing scalability and resource utilization for efficient application deployment in cloud environments.}
+\resumeItem{Implemented Nodemailer for streamlined user feedback, facilitating effective communication channels and enhancing user
+engagement}
      
        \resumeItemListEnd
 \vspace{-10pt}
@@ -254,22 +279,7 @@
 \vspace{-15pt}
 
 
-  %-----------PROGRAMMING SKILLS-----------
-\section{Skills, Languages \& Interests }
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: C++, Python, JavaScript, SQL, HTML, CSS} \\
-   
-     \textbf{Tools and Framework}{: GraphQL, Git, ReactJs, MySQL, VS Code, Django, AWS- EC2, ECS, TailwindCSS } \\
-     \textbf{Area of Interest}{: Artificial Intelligence and Machine Learning, Data Structures and Algorithms, Cyber Security } \\
-     
-      \textbf{Non Technical skills}{: Problem Solving, Presentation Skills, Teamwork, Leadership, Versatility, Active learning} \\
-    }}
-    
- \end{itemize}
- \vspace{-16pt}
-  
-  
+
 
 % %------RELEVANT COURSEWORK-------
 % \section{Relevant Coursework}
